@@ -45,15 +45,19 @@
 	</dependencies>
 
 	<build>
-		<!-- <finalName>indexa_fotos</finalName> -->
+		<!-- Nome do arquivo WAR, gerado na pasta "target" -->
+		<finalName>template_webapp</finalName>
+		
 		<plugins>
+		
+			<!-- Permite execução de "mvn jetty:run" -->
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<configuration>
 					<scanIntervalSeconds>2</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/indexa_fotos</contextPath>
+						<contextPath>/template_webapp</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
