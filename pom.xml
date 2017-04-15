@@ -17,23 +17,42 @@
 
 		<!-- Utilizado, por exemplo, para copiar arquivos com FileUtils -->
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-		<!-- <dependency> <groupId>commons-io</groupId> <artifactId>commons-io</artifactId> 
-			<version>2.5</version> </dependency> -->
+		<!-- 
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+		-->
 
 		<!-- Métodos auxiliares -->
-		<!-- <dependency> <groupId>com.felipegiotto</groupId> <artifactId>felipegiotto_utils</artifactId> 
-			<version>0.0.1-SNAPSHOT</version> </dependency> -->
+  		<!-- 
+  		<dependency>
+			<groupId>com.felipegiotto</groupId>
+			<artifactId>felipegiotto_utils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		-->
 
 		<!-- Banco de dados SQLite3 -->
 		<!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
-		<!-- <dependency> <groupId>org.xerial</groupId> <artifactId>sqlite-jdbc</artifactId> 
-			<version>3.16.1</version> </dependency> -->
+  		<!-- 
+		<dependency>
+			<groupId>org.xerial</groupId>
+			<artifactId>sqlite-jdbc</artifactId>
+			<version>3.16.1</version>
+		</dependency>
+		-->
 
-		<!-- Apache Commons-Codec, utilizado, por exemplo, para calcular o MD5 
-			de arquivos -->
+		<!-- Apache Commons-Codec, utilizado, por exemplo, para calcular o MD5 de arquivos -->
 		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-		<!-- <dependency> <groupId>commons-codec</groupId> <artifactId>commons-codec</artifactId> 
-			<version>1.9</version> </dependency> -->
+		<!-- 
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+		 -->
 
 		<!-- Testes unitários -->
 		<dependency>
