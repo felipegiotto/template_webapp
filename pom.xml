@@ -13,6 +13,7 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- Utilizado, por exemplo, para copiar arquivos com FileUtils -->
@@ -49,14 +50,6 @@
 			<version>1.9</version>
 		</dependency>
 		 -->
-
-		<!-- Migrations com Flywaydb -->
-		<!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-core -->
-		<dependency>
-		    <groupId>org.flywaydb</groupId>
-		    <artifactId>flyway-core</artifactId>
-		    <version>4.1.2</version>
-		</dependency>
 
 		<!-- Testes unitários -->
 		<dependency>

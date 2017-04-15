@@ -10,7 +10,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class TestClass extends AbstractTest {
+public class SimpleTest extends AbstractTest {
 
 	@Test
 	public void testDatabase() throws SQLException {
